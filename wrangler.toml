@@ -1,0 +1,12 @@
+name = "kotodama"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kotodama-db"
+database_id = "c54fd629-9adf-498b-8707-6de939123a37"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "d3a5ecb095b547a393884eee6ebe3415"
