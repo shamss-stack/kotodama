@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 const XP_PER_LEVEL = 500;
 
-export default function Quiz() {
+export default function Quiz({ onNavigate }) {
   const [level, setLevel] = useState("N5");
   const [question, setQuestion] = useState(null);
   const [selected, setSelected] = useState(null);
